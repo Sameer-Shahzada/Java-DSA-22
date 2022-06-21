@@ -14,13 +14,10 @@ class Product
 
         Scanner sc = new Scanner(System.in);
         num1 = sc.nextInt();
-
-        Scanner sc2 = new Scanner(System.in);
-        num2 = sc2 .nextInt();
-
+        num2 = sc.nextInt();
+        
         sc.close();
-        sc2.close();
-
+        
         int product = num1 * num2;
 
         System.out.println("Product of two digit is - " + num1 + "*" + num2 + " = " + product);
