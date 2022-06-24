@@ -1,7 +1,7 @@
 
 //-> Write a java program to swap two numbers.
 
-package JavaBasic1_PractiseProblemSet;
+package JavaBasic2_PractiseProblemSet;
 
 import java.util.Scanner;
 
