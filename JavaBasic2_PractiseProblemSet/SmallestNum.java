@@ -1,5 +1,6 @@
 
 //-> Write a java method to find the smallest number among three numbers
+
 package JavaBasic2_PractiseProblemSet;
 import java.util.Scanner;
 public class SmallestNum 
