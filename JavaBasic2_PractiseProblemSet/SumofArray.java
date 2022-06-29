@@ -1,11 +1,12 @@
 
-package Java_Basic2_PractiseProblemSet;
 
+//-> Write a java program to sum values of an array.
+import java.util.Scanner;
 public class SumofArray {
     
     public static void main(String[] args) {
         // define data fields 
-        int element; float sum = 0;
+        int element; int sum = 0;
 
         System.out.println("Please enter the size of the array");
 
@@ -13,20 +14,20 @@ public class SumofArray {
         element = sc.nextInt();
 
         // initialize an array 
-        float arr[] = new float[element];
+        int arr[] = new int[element];
 
         // to take input from user
-        for(float i = 0; i < element; i++)
+        for(int i = 0; i < element; i++)
         {
-            arr[(int)i] = sc.nextFloat();
+            arr[i] = sc.nextInt();
         }
         // to calculate the sum of the array elements
-        for(float i = 0; i < element; i++)
+        for(int i = 0; i < element; i++)
         {
-            sum += arr[(int)i];
+            sum += arr[i];
         }
         // print the sum of the flaot elements of the array
-        System.out.println("Sum of the float element is - " + sum);
+        System.out.println("Sum of the integer element is - " + sum);
     }
 }
 
